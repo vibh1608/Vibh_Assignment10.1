@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.vibh_assignment101.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:layout_height="0dp"
+        android:hint="Enter The Number"
+        android:id="@+id/number_taker"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginTop="5dp"
+        android:background="#A9A9A9"
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.8"
+        android:id="@+id/fragment_loading_area"
+        android:background="#1E90FF"></FrameLayout>
+
+
+</LinearLayout>
